@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   MutantStack.hpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vsimeono <vsimeono@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 22:33:53 by vsimeono          #+#    #+#             */
-/*   Updated: 2022/11/20 23:03:54 by vsimeono         ###   ########.fr       */
+/*   Updated: 2022/11/20 23:13:44 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 #include <algorithm>
 #include <stack>
 #include <list>
-// #include <cstdlib>
 
 template <typename T>
 class MutantStack: public std::stack<T>
@@ -55,7 +54,7 @@ class MutantStack: public std::stack<T>
 	{
 		return (this->rbegin());
 	}
-		reverse_iterator rend()
+	reverse_iterator rend()
 	{
 		return (this->rend());
 	}
