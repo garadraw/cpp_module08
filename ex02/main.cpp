@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vsimeono <vsimeono@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 22:33:56 by vsimeono          #+#    #+#             */
-/*   Updated: 2022/11/20 23:02:58 by vsimeono         ###   ########.fr       */
+/*   Updated: 2022/11/21 11:51:26 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,24 +80,24 @@ int main()
 			++it;
 		}
 	}
-	{
-		std::cout << "Stack Backwards::" << std::endl;
-		MutantStack<int> mstack;
-		mstack.push(5);
-		mstack.push(17);
-		mstack.push(3);
-		mstack.push(62);
-		std::cout << "Top value: " << mstack.top() << std::endl;
-		MutantStack<int>::reverse_iterator it = mstack.rbegin();
-		MutantStack<int>::reverse_iterator ite = mstack.rend();
-		++it;
-		--it;
-		while (it != ite)
-		{
-			std::cout << *it << std::endl;
-			++it;
-		}
-	}
+	// {
+	// 	std::cout << "Stack Backwards::" << std::endl;
+	// 	MutantStack<int> mstack;
+	// 	mstack.push(5);
+	// 	mstack.push(17);
+	// 	mstack.push(3);
+	// 	mstack.push(62);
+	// 	std::cout << "Top value: " << mstack.top() << std::endl;
+	// 	MutantStack<int>::reverse_iterator it = mstack.rbegin();
+	// 	MutantStack<int>::reverse_iterator ite = mstack.rend();
+	// 	++it;
+	// 	--it;
+	// 	while (it != ite)
+	// 	{
+	// 		std::cout << *it << std::endl;
+	// 		++it;
+	// 	}
+	// }
 
 	std::cout << std::endl << "***Copy tests***" << std::endl;
 

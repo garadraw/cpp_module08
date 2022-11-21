@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 22:33:53 by vsimeono          #+#    #+#             */
-/*   Updated: 2022/11/20 23:13:44 by vsimeono         ###   ########.fr       */
+/*   Updated: 2022/11/21 11:58:57 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,14 +50,14 @@ class MutantStack: public std::stack<T>
 		return (this->c.end());
 	}
 	
-	reverse_iterator rbegin()
-	{
-		return (this->rbegin());
-	}
-	reverse_iterator rend()
-	{
-		return (this->rend());
-	}
+	// reverse_iterator rbegin()
+	// {
+	// 	return (this->rbegin());
+	// }
+	// reverse_iterator rend()
+	// {
+	// 	return (this->rend());
+	// }
 
 	const_reverse_iterator rbegin() const
 	{
